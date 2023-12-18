@@ -1,16 +1,15 @@
 package com.surver.controllers;
 
-import com.surver.repositories.ParticipationRepository;
-import com.surver.repositories.StatusRepository;
+import com.surver.services.ParticipationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ParticipationController {
-    private final ParticipationRepository participationRepository;
+    private final ParticipationService participationService;
 
     @Autowired
-    public ParticipationController(ParticipationRepository participationRepository){
-        this.participationRepository = participationRepository;
+    public ParticipationController(ParticipationService participationService){
+        this.participationService = participationService;
     }
 }

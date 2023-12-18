@@ -1,15 +1,15 @@
 package com.surver.controllers;
 
-import com.surver.repositories.StatusRepository;
+import com.surver.services.StatusService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class StatusController {
-    private final StatusRepository statusRepository;
+    private final StatusService statusService;
 
     @Autowired
-    public StatusController(StatusRepository statusRepository){
-        this.statusRepository = statusRepository;
+    public StatusController(StatusService statusService){
+        this.statusService = statusService;
     }
 }

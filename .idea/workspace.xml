@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381739c-ae6a-42a4-b5e7-4e3d0f5ab87a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Survey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Survey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/surver/surver/SurverApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/surver/surver/SurverApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

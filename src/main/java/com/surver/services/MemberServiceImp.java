@@ -1,5 +1,6 @@
 package com.surver.services;
 
+import com.surver.dtos.ListOfMembersDTO;
 import com.surver.repositories.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,5 +12,10 @@ public class MemberServiceImp implements MemberService{
     @Autowired
     public MemberServiceImp(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
+    }
+
+    @Override
+    public ListOfMembersDTO getListOfMembers() {
+        return null;
     }
 }

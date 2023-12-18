@@ -18,7 +18,7 @@ public class Survey {
     //1,Survey 01,30,5,2
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     @ManyToOne(fetch = FetchType.LAZY,
             cascade = CascadeType.PERSIST)
     private List<Participation> participations;

@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381739c-ae6a-42a4-b5e7-4e3d0f5ab87a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/repositories/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/repositories/ParticipationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/repositories/StatusRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/repositories/SurveyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/MemberServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/ParticipationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/ParticipationServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/StatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/StatusServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/SurveyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/SurveyServiceImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

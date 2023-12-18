@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381739c-ae6a-42a4-b5e7-4e3d0f5ab87a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mysql-workbench-community-8.0.34-winx64.msi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Participation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Survey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Survey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Survey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/surver/surver/SurverApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/surver/surver/SurverApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,8 @@
     "onboarding.tips.debug.path": "C:/DEV/survey-server-java/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RunManager">

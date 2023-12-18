@@ -17,8 +17,7 @@ public class Member {
     //MemberId,Full name,E-mail address,Is Active
     //1,Malissa Arn,MalissaArn0202@gmail.com,1
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE,
-            generator = "seqGen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
     private String email;

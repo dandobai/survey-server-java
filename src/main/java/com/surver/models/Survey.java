@@ -17,8 +17,7 @@ public class Survey {
     //SurveyId,Name,Expected completes,Completion points,Filtered points
     //1,Survey 01,30,5,2
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE,
-            generator = "seqGen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @ManyToOne(fetch = FetchType.LAZY,
             cascade = CascadeType.PERSIST)

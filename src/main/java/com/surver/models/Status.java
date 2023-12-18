@@ -15,12 +15,7 @@ import java.util.List;
 @NoArgsConstructor
 public class Status {
     @Id
-    @SequenceGenerator(name = "seqGen",
-            sequenceName = "SEQ",
-            initialValue = 1,
-            allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE,
-            generator = "seqGen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String message;
     @OneToMany(mappedBy = "status",

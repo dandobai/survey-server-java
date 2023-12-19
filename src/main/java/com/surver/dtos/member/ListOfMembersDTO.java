@@ -1,4 +1,17 @@
-package com.surver.dtos;
+package com.surver.dtos.member;
 
-public record ListOfMembersDTO() {
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.List;
+@Setter
+@Getter
+@NoArgsConstructor
+public class ListOfMembersDTO {
+    List<MemberDTO> memberDTOs;
+
+    public ListOfMembersDTO(List<MemberDTO> memberDTOs) {
+        this.memberDTOs = memberDTOs;
+    }
 }

@@ -16,10 +16,10 @@ import java.util.List;
 public class Status {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String message;
     @OneToMany(mappedBy = "status",
-            cascade = CascadeType.PERSIST)
+            cascade = CascadeType.ALL)
     private List<Participation> participations;
 
     public Status(String message) {

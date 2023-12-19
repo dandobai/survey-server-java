@@ -18,12 +18,12 @@ public class Member {
     //1,Malissa Arn,MalissaArn0202@gmail.com,1
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String name;
     private String email;
     private boolean isActive;
     @OneToMany(mappedBy = "member",
-            cascade = CascadeType.PERSIST)
+            cascade = CascadeType.ALL)
     private List<Participation> participations;
 
     public Member(String name,

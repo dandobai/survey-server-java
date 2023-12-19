@@ -18,9 +18,9 @@ public class Survey {
     //1,Survey 01,30,5,2
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-    @ManyToOne(fetch = FetchType.LAZY,
-            cascade = CascadeType.PERSIST)
+    private Long id;
+    @OneToMany(fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL)
     private List<Participation> participations;
     private String name;
     private int expectedCompletes;
@@ -31,7 +31,7 @@ public class Survey {
                   int expectedCompletes,
                   int completionPoints,
                   int filteredPoints) {
-        this.participations = new ArrayList<>();
+        this.participations = new ArrayList<Participation>();
         this.name = name;
         this.expectedCompletes = expectedCompletes;
         this.completionPoints = completionPoints;

@@ -13,7 +13,7 @@ import lombok.Setter;
 public class Participation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     //MemberId,SurveyId,StatusID,Length
     @ManyToOne(fetch = FetchType.LAZY,
             cascade = CascadeType.ALL)

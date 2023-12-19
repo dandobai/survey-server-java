@@ -1,2 +1,6 @@
-package com.surver.enums;public enum Deleted {
+package com.surver.enums;
+
+public enum Deleted {
+    YES,
+    NO
 }

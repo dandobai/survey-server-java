@@ -1,2 +1,4 @@
-package com.surver.dtos;public record ListOfMembersDTO() {
+package com.surver.dtos;
+
+public record ListOfMembersDTO() {
 }

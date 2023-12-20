@@ -14,7 +14,6 @@ public class Participation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    //MemberId,SurveyId,StatusID,Length
     @ManyToOne(fetch = FetchType.LAZY,
             cascade = CascadeType.ALL)
     private Member member;

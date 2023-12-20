@@ -6,10 +6,10 @@ import com.surver.models.Member;
 
 public interface MemberService {
     ListOfMembersDTO getListOfMembers();
-    MemberDTO getMemberById(String id);
+    MemberDTO getMemberById(Long id);
     MemberDTO createMemberByMemberDTO(MemberDTO memberDTO);
     MemberDTO updateMemberByMemberDTO(Member member);
     DeleteDTO deleteMemberByMemberDTO(MemberDTO memberDTO);
 
-    DeleteDTO deleteMemberByID(String id);
+    DeleteDTO deleteMemberByID(Long id);
 }

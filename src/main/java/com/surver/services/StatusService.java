@@ -6,7 +6,7 @@ import com.surver.dtos.status.StatusDTO;
 
 public interface StatusService {
     ListOfStatusDTO getListOfStatus();
-    StatusDTO getStatusById(String id);
+    StatusDTO getStatusById(Long id);
     StatusDTO createStatusByStatusDTO(StatusDTO statusDTO);
     StatusDTO updateStatusByStatusDTO(StatusDTO statusDTO);
     DeleteDTO deletestatusBystatusDTO(StatusDTO statusDTO);

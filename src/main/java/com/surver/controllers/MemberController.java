@@ -22,23 +22,23 @@ public class MemberController {
         return ResponseEntity.ok(memberService.getListOfMembers());
     }
     @GetMapping("/members/{id}")
-    public ResponseEntity<MemberDTO> getMemberDTO(@PathVariable String id) {
+    public ResponseEntity<MemberDTO> getMemberDTO(@PathVariable Long id) {
         return ResponseEntity.ok(memberService.getMemberById(id));
     }
-    @PostMapping("/addmember")
+    @PostMapping("/member")
     public ResponseEntity<MemberDTO> createMember(MemberDTO memberDTO) {
         return ResponseEntity.ok(memberService.createMemberByMemberDTO(memberDTO));
     }
-    @PutMapping("/updatemember")
+    @PutMapping("/member")
     public ResponseEntity<MemberDTO> updateMember(Member member) {
         return ResponseEntity.ok(memberService.updateMemberByMemberDTO(member));
     }
-    @DeleteMapping("/deletemember")
+    @DeleteMapping("/member")
     public ResponseEntity<DeleteDTO> deleteMember(MemberDTO memberDTO) {
         return ResponseEntity.ok(memberService.deleteMemberByMemberDTO(memberDTO));
     }
-    @DeleteMapping("/deletemember/{id}")
-    public ResponseEntity<DeleteDTO> deleteMember(@PathVariable String id) {
+    @DeleteMapping("/member/{id}")
+    public ResponseEntity<DeleteDTO> deleteMember(@PathVariable Long id) {
         return ResponseEntity.ok(memberService.deleteMemberByID(id));
     }
 }

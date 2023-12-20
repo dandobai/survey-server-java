@@ -29,8 +29,8 @@ public class MemberServiceImp implements MemberService{
     }
 
     @Override
-    public MemberDTO getMemberById(String id) {
-        Optional<Member> member = memberRepository.findById(Integer.parseInt(id));
+    public MemberDTO getMemberById(Long id) {
+        Optional<Member> member = memberRepository.findById(id);
         return modelMapper.map(member,MemberDTO.class);
     }
 
@@ -55,9 +55,8 @@ public class MemberServiceImp implements MemberService{
     }
 
     @Override
-    public DeleteDTO deleteMemberByID(String id) {
-        Long idInt = Long.valueOf(id);
-        memberRepository.deleteById(idInt.intValue());
-        return new DeleteDTO(idInt, Deleted.YES);
+    public DeleteDTO deleteMemberByID(Long id) {
+        memberRepository.deleteById(id);
+        return new DeleteDTO(id, Deleted.YES);
     }
 }

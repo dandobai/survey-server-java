@@ -6,10 +6,10 @@ import com.surver.dtos.survey.SurveyDTO;
 
 public interface SurveyService {
     ListOfSurveyDTO getListOfSurvey();
-    SurveyDTO getSurveyById(String id);
+    SurveyDTO getSurveyById(Long id);
     SurveyDTO createSurveyBySurveyDTO(SurveyDTO surveyDTO);
     SurveyDTO updateSurveyBySurveyDTO(SurveyDTO surveyDTO);
     DeleteDTO deletesurveyBysurveyDTO(SurveyDTO surveyDTO);
 
-    DeleteDTO deletesurveyByID(String id);
+    DeleteDTO deletesurveyByID(Long id);
 }

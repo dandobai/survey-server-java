@@ -5,33 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4381739c-ae6a-42a4-b5e7-4e3d0f5ab87a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/configurations/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/delete/DeleteDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/member/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/participation/ListOfParticipationsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/participation/ParticipationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/status/ListOfStatusDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/status/StatusDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/survey/ListOfSurveyDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/survey/SurveyDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/surver/enums/Deleted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/controllers/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/controllers/MemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/controllers/ParticipationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/controllers/ParticipationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/controllers/StatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/controllers/StatusController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/controllers/SurveyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/controllers/SurveyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/dtos/ListOfMembersDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/dtos/member/ListOfMembersDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Participation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Participation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/models/Survey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/models/Survey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/repositories/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/repositories/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/repositories/ParticipationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/repositories/ParticipationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/repositories/StatusRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/repositories/StatusRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/repositories/SurveyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/repositories/SurveyRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/services/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/services/MemberServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/MemberServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/services/ParticipationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/ParticipationService.java" afterDir="false" />
@@ -40,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/services/StatusServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/StatusServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/services/SurveyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/SurveyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/surver/services/SurveyServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/surver/services/SurveyServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/DEV/eucyon-syzygium-tribes",
+    "last_opened_file_path": "C:/DEV/survey-server-java",
     "onboarding.tips.debug.path": "C:/DEV/survey-server-java/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",

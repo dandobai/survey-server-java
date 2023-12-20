@@ -20,14 +20,14 @@ public class StatusController {
         return ResponseEntity.ok(statusService.getListOfStatus());
     }
     @GetMapping("/status/{id}")
-    public ResponseEntity<StatusDTO> getstatusDTO(@PathVariable String id) {
+    public ResponseEntity<StatusDTO> getstatusDTO(@PathVariable Long id) {
         return ResponseEntity.ok(statusService.getStatusById(id));
     }
-    @PostMapping("/addstatus")
+    @PostMapping("/status")
     public ResponseEntity<StatusDTO> createstatus(StatusDTO statusDTO) {
         return ResponseEntity.ok(statusService.createStatusByStatusDTO(statusDTO));
     }
-    @PutMapping("/updatestatus")
+    @PutMapping("/status")
     public ResponseEntity<StatusDTO> updatestatus(StatusDTO statusDTO) {
         return ResponseEntity.ok(statusService.updateStatusByStatusDTO(statusDTO));
     }
@@ -35,7 +35,7 @@ public class StatusController {
     public ResponseEntity<DeleteDTO> deletestatus(StatusDTO statusDTO) {
         return ResponseEntity.ok(statusService.deletestatusBystatusDTO(statusDTO));
     }
-    @DeleteMapping("/deletestatus/{id}")
+    @DeleteMapping("/status/{id}")
     public ResponseEntity<DeleteDTO> deleteStatusById(@PathVariable Long id) {
         return ResponseEntity.ok(statusService.deleteStausByStatusId(id));
     }

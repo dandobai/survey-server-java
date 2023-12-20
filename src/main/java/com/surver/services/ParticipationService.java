@@ -10,12 +10,11 @@ public interface ParticipationService {
     ParticipationDTO getParticipationByID(Long id);
     ParticipationDTO createParticipationByParticipationDTO(ParticipationDTO participationDTO);
 
-    ParticipationDTO updateParticipationByParticipation(Participation participation);
+    ParticipationDTO updateParticipationByParticipationDTO(ParticipationDTO participationDTO);
 
     DeleteDTO deleteParticipationByParticipationDTO(ParticipationDTO participationDTO);
 
 
     DeleteDTO deleteParticipationByParticipationID(Long id);
 
-    ParticipationDTO updateParticipationByParticipationDTO(ParticipationDTO participationDTO);
 }

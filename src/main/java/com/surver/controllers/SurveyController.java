@@ -20,23 +20,23 @@ public class SurveyController {
         return ResponseEntity.ok(surveyService.getListOfSurvey());
     }
     @GetMapping("/survey/{id}")
-    public ResponseEntity<SurveyDTO> getSurveyDTO(@PathVariable String id) {
+    public ResponseEntity<SurveyDTO> getSurveyDTO(@PathVariable Long id) {
         return ResponseEntity.ok(surveyService.getSurveyById(id));
     }
-    @PostMapping("/addsurvey")
+    @PostMapping("/survey")
     public ResponseEntity<SurveyDTO> createSurvey(SurveyDTO surveyDTO) {
         return ResponseEntity.ok(surveyService.createSurveyBySurveyDTO(surveyDTO));
     }
-    @PutMapping("/updatesurvey")
+    @PutMapping("/survey")
     public ResponseEntity<SurveyDTO> updatesurvey(SurveyDTO surveyDTO) {
         return ResponseEntity.ok(surveyService.updateSurveyBySurveyDTO(surveyDTO));
     }
-    @DeleteMapping("/deletesurvey")
+    @DeleteMapping("/survey")
     public ResponseEntity<DeleteDTO> deletesurvey(SurveyDTO surveyDTO) {
         return ResponseEntity.ok(surveyService.deletesurveyBysurveyDTO(surveyDTO));
     }
-    @DeleteMapping("/deletesurvey/{id}")
-    public ResponseEntity<DeleteDTO> deletesurveybyid(@PathVariable String id) {
+    @DeleteMapping("/survey/{id}")
+    public ResponseEntity<DeleteDTO> deletesurveybyid(@PathVariable Long id) {
         return ResponseEntity.ok(surveyService.deletesurveyByID(id));
     }
 }

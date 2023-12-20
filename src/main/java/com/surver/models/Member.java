@@ -14,8 +14,6 @@ import java.util.List;
 @Getter
 @NoArgsConstructor
 public class Member {
-    //MemberId,Full name,E-mail address,Is Active
-    //1,Malissa Arn,MalissaArn0202@gmail.com,1
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

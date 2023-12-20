@@ -14,8 +14,6 @@ import java.util.List;
 @Getter
 @NoArgsConstructor
 public class Survey {
-    //SurveyId,Name,Expected completes,Completion points,Filtered points
-    //1,Survey 01,30,5,2
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -42,7 +42,8 @@ public class ParticipationServiceImp implements ParticipationService {
     }
 
     @Override
-    public ParticipationDTO updateParticipationByParticipation(Participation participation) {
+    public ParticipationDTO updateParticipationByParticipationDTO(ParticipationDTO participationDTO) {
+        Participation participation = modelMapper.map(participationDTO,Participation.class);
         participationRepository.save(participation);
         return modelMapper.map(participation,ParticipationDTO.class);
     }
@@ -58,10 +59,5 @@ public class ParticipationServiceImp implements ParticipationService {
     public DeleteDTO deleteParticipationByParticipationID(Long id) {
         participationRepository.deleteById(id);
         return new DeleteDTO(id, Deleted.YES);
-    }
-
-    @Override
-    public ParticipationDTO updateParticipationByParticipationDTO(ParticipationDTO participationDTO) {
-        return null;
     }
 }

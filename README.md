@@ -1,2 +1,2 @@
 # survey-server-java
-This project is a java backend server persisting and parsing data in csv files.
+This project is a java backend server parsing from csv files and persisting it in a mysql database.
